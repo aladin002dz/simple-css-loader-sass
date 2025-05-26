@@ -1,0 +1,22 @@
+.loader {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e0e0e0;
+    border-top: 3px solid #ff0000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+    }
+}
